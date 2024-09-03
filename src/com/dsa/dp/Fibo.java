@@ -4,12 +4,15 @@ import java.util.Arrays;
 
 public class Fibo {
 	public static void main(String[] args) {
+		char[] ch = {'a','b','d','e','f'};
+		int index = Arrays.binarySearch(ch, 'c');
+		System.out.println(index);
 		int n =19 ;
 		int[] dp = new int[n+1];
 		Arrays.fill(dp, -1);
 //		System.out.println(fibo(n , dp));
 //		System.out.println(fibo1(5, dp))
-		System.out.println(fibo2(5));
+//		System.out.println(fibo2(5));
 	}
 	
 	public static int fibo(int n , int[] dp) { //memoization - top down 

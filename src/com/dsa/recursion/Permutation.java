@@ -62,3 +62,25 @@ public class Permutation {
 }
 
 
+
+// public static void main(String[] args) {
+// 	String s = "abc";
+// 	permutation(s , "");
+// }
+
+// public static void permutation(String s1 , String s2){
+// 	if(s1.isEmpty()){
+// 		System.out.print(s2+" ");
+// 		return;
+// 	}
+	
+// 	for(int i = 0 ; i<s1.length() ; i++){
+// 		char curr = s1.charAt(i);
+// 		String lp = s1.substring(0 , i);
+// 		String rp = s1.substring(i+1);
+// 		String rop = lp + rp;
+// 		permutation(rop , s2+curr);
+// 	}
+// }
+
+

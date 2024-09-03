@@ -10,6 +10,8 @@ public static void main(String[] args) {
 //	list.add(10);
 //	System.out.println(list);
 	
+//	Object[] ob = new Object[8];
+	
 	for(int i = 0 ; i<5 ; i++) {
 		list.add(sc.nextInt());
 	}
